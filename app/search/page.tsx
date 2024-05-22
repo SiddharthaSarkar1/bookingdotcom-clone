@@ -16,6 +16,7 @@ export type SearchParams = {
 };
 
 async function SearchPage({ searchParams }: Props) {
+  console.log(searchParams)
   if (!searchParams.url) return notFound();
 
   const results = await fetchResults(searchParams);
