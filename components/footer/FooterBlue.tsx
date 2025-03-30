@@ -41,7 +41,7 @@ const FooterBlue = () => {
     <>
       <div className="mx-auto bg-[#00224F] text-center mt-14 p-6 lg:px-8 overflow-y-auto">
         <p style={p1}>Save time, save money!</p>
-        <p style={p2}>Sign up and we'll send the best deals to you</p>
+        <p style={p2}>Sign up and we will send the best deals to you</p>
         <div className="p-2 flex justify-center items-center">
           <input style={input1} type="text" placeholder=" Your email" />
           <button style={button} className="mt-1">Subscribe</button>
